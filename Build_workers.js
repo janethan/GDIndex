@@ -3,10 +3,10 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '835110616928-ggkhgkijpuef505s6uer0ji23mrprmcq.apps.googleusercontent.com';
-const clientSecret = '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';
+const clientId = '';
+const clientSecret = '';
 const grantType = 'authorization_code';
-const redirectURI = 'https://test.lsic5.cf';
+const redirectURI = '';
 const jsURL = 'https://github.com/janethan/GDIndex/raw/main/worker.js';
 
 async function handleRequest(request) {
