@@ -10,7 +10,6 @@ self.props = {
   user: '', // 开启用户验证后，这里是用户名
   pass: '', // 开启用户验证后，这里是登录密码
   upload: true, // 取消上传功能请改为`false`
-  upload: true,
   lite: false
 };
 (function () {
