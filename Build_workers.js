@@ -7,7 +7,7 @@ const clientId = '835110616928-ggkhgkijpuef505s6uer0ji23mrprmcq.apps.googleuserc
 const clientSecret = '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';
 const grantType = 'authorization_code';
 const redirectURI = 'https://test.lsic5.cf';
-const jsURL = 'https://github.com/janethan/GDIndex/raw/master/worker.js';
+const jsURL = 'https://github.com/janethan/GDIndex/raw/main/worker.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Drive Index';
