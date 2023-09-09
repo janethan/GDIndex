@@ -310,7 +310,7 @@ async function handleRequest(request) {
     <input type="text" class="form-control" name="site_name" id="sitename">
   </div>
   <div class="mb-3">
-    <label for="driveId" class="form-label">Share Drive ID or root（共享驱动器ID或 root）</label>
+    <label for="driveId" class="form-label">Share Drive ID or root（请输入网盘文件夹ID或 root）</label>
     <input type="text" class="form-control" value="root" name="root" id="driveId" required>
   </div>
   <button type="submit" class="btn btn-primary">Submit（提交）</button>
