@@ -3,10 +3,10 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '';
-const clientSecret = '';
+const clientId = '换成自己的';
+const clientSecret = '换成自己的';
 const grantType = 'authorization_code';
-const redirectURI = '';
+const redirectURI = 'https://换成自己（在谷歌API里通过认证）的域名';
 const jsURL = 'https://github.com/janethan/GDIndex/raw/main/worker.js';
 
 async function handleRequest(request) {
