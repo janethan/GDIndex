@@ -284,8 +284,8 @@ async function handleRequest(request) {
 <body">
 <div class="container">
     <br>
-    <a href="/"><img border="0" alt="Bhadoo Cloud" src="https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/bhadoo-cloud-logo-white.svg" height="" width="150px"></a>
-    <a href="https://gitlab.com/GoogleDriveIndex/Google-Drive-Index"><h5>索引生成器 - 测试版</h5></a>
+    <a href="/"><img border="0" alt="janethan/GDIndex" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="" width="150px"></a>
+    <a href="https://gitlab.com/GoogleDriveIndex/Google-Drive-Index"><h5>谷歌网盘索引生成器</h5></a>
     <br>
         <div id="loginuser" style="display:block;">
             <h3>1. <a href="https://accounts.google.com/o/oauth2/auth?client_id=${clientId}&redirect_uri=${redirectURI}&response_type=code&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&prompt=select_account+consent"><img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png"></a></h3>
