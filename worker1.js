@@ -2713,7 +2713,7 @@ async function onGet(request) {
   // return new Response(`${await gd.getId( request.pathname, self.props.default_root_id)} || ${self.props.default_root_id}`, { status: 500 }); // 返回带有错误信息的响应
   if (path.startsWith('/~_~_gdindex/resources/')) {
     const remain = path.replace('/~_~_gdindex/resources/', '');
-    const r = await fetch(`https://raw.githubusercontent.com/janethan/GDIndex/main/${remain}`);
+    const r = await fetch(`https://raw.githubusercontent.com/maple3142/GDIndex/master/web/dist/${remain}`);
     return new Response(r.body, {
       headers: {
         'Content-Type': mime.getType(remain) + '; charset=utf-8',
