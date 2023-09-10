@@ -2,7 +2,7 @@
 
 一共两套搭建模板`worker`和`worker1`，建议使用`worker1`。
 
-### 安装方法：
+### 搭建方法：
 - 根据`build-worker.js`里的中文提示修改一下，然后发布到CF的workers项目里就能运行了。
 >注意：
 `clientId`、`clientSecret`和`redirectURI`这三项必改，`jsURL`后面的链接改不改都行。
