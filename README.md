@@ -1,6 +1,6 @@
 # GDIndex
 
-一共两套搭建模板`worker`和`workers1`，建议使用`workers1`。
+一共两套搭建模板`worker`和`worker1`，建议使用`worker1`。
 
 ### 安装方法：
 - 根据`build-worker.js`里的中文提示修改一下，然后发布到CF的workers项目里就能运行了。
