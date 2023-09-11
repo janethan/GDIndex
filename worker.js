@@ -6,7 +6,7 @@ self.props = {
   "refresh_token": "", // Authorize token
   service_account: false,
   service_account_json: {},
-  auth: false, // 禁用用户验证，开启验证请改为`true`
+  auth: false, // 用户验证开关，默认关闭，开启请改成`true`
   user: '', // 开启用户验证后，这里是用户名
   pass: '', // 开启用户验证后，这里是登录密码
   upload: true, // 启用上传功能，如取消请改为`false`
