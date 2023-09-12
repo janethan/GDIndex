@@ -6,10 +6,10 @@ self.props = {
   "refresh_token": "",
   service_account: false, 
   service_account_json: {},
-  "auth": "false", // 用户验证开关，默认关闭，开启请改成`true`
-  "user": "", // 开启用户验证后，这里是用户名
-  "pass": "", // 开启用户验证后，这里是登录密码
-  upload: false, // 取消上传功能请改为`false`
+  auth: false, //  默认关闭索引验证，改成`true`启用验证，启用之后用户名和密码才会生效。
+  "user": "", // 访问索引验证的用户名
+  "pass": "", // 访问索引验证的密码
+  upload: true, // 默认已开启上传功能，取消上传功能请改成`false`。
   lite: false
 };
 (function () {
