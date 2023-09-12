@@ -313,11 +313,11 @@ async function handleRequest(request) {
     <label for="driveId" class="form-label">Share Drive ID or root（请输入网盘文件夹ID或 root）</label>
     <input type="text" class="form-control" value="root" name="root" id="driveId" required>
 <div class="mb-3">
-  <label for="user">Username (添加访问索引的用户名，默认已禁用，可留空)</label>
+  <label for="user">Username (访问索引的用户名，默认未启用，可留空)</label>
   <input type="text" class="form-control"  name="user"id="user">
 </div>
 <div class="mb-3">
-  <label for="pass">Password (添加访问索引的密码，默认已禁用，可留空)</label>
+  <label for="pass">Password (访问索引的密码，默认未启用，可留空)</label>
   <input type="password" class="form-control" name="pass" id="pass">
 </div>
   <button type="submit" class="btn btn-primary">Submit（提交）</button>
