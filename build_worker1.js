@@ -291,7 +291,7 @@ async function handleRequest(request) {
           <h3>1. <a href="https://accounts.google.com/o/oauth2/auth?client_id=${client_id}&redirect_uri=${redirectURI}&response_type=code&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&prompt=select_account+consent"><img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png"></a></h3>
       </div>
       <div id="loggedinuser" style="display:none;"><h3>1. Login Successful（登录成功）</h3></div>
-      <div id="logoutuser" style="display:none;"><h3>1. <a href="/">Click Here（点击这里）</a> to Logout or Refresh the page.（注销或刷新页面。）</h3></div>
+      <div id="logoutuser" style="display:none;"><h3>1. <a href="/">点击这里</a> 注销或刷新页面</h3></div>
 
       <p>The App requests permissions to access your Google Drive files so do not share this information with anyone else.</p>
       <p>注：该应用程序请求访问您的 Google 云端硬盘文件的权限，因此请勿与其他任何人共享此信息。</p>
