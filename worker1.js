@@ -9,7 +9,7 @@ self.props = {
   "auth": false, //  默认关闭验证，改成`true`启用验证后用户名和密码才会生效
   "user": "", // 访问索引验证的用户名
   "pass": "", // 访问索引验证的密码
-  "upload": "false", // 默认已开启上传功能，取消上传功能请改成`false`
+  "upload": "true", // 默认已开启上传功能，取消上传功能请改成`false`
   lite: false
 };
 (function () {
