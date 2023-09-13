@@ -299,6 +299,7 @@ async function handleRequest(request) {
     <div id="secondstep" style="display:block;">
 <h3>2. Enter Details（确认详细信息 ）</h3>
 <form>
+<div class="col-md-8">
   <div class="mb-3">
     <label for="authcode" class="form-label">Authentication Code（验证码）</label>
     <input type="hidden" class="form-control" id="authcode" name="auth_code" aria-describedby="authcodefromgoogle" required>
@@ -328,6 +329,7 @@ async function handleRequest(request) {
     <h3>2. Enter Details（输入详细信息}</h3>
     处理成功，如果失败或代码为空，请单击<a href="/">这里</a>重试。
     </div>
+</div>
     <br><br>
     <h3 id="thirdstep">
         3. 复制以下代码并粘贴到<a href="https://dash.cloudflare.com" target="_blank">Cloudflare Workers</a>
