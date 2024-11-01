@@ -313,10 +313,12 @@ async function handleRequest(request) {
   <input type="text" class="form-control" name="site_name" id="title">
 </div>
 
+<!--   此段代码已注释
 <div class="mb-3">
   <label for="driveId" class="form-label">文件夹ID 或 网盘根目录root</label>
   <input type="text" class="form-control" value="root" name="root" id="driveId" required>
 </div>
+-->
 
 <div class="mb-3">
   <label for="user">访问索引的用户名</label>
@@ -326,7 +328,6 @@ async function handleRequest(request) {
   <label for="pass">访问索引的密码</label>
   <input type="password" class="form-control" name="pass" id="pass">
 </div>
-
 
 </div>
 
