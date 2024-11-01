@@ -1,18 +1,18 @@
 self.props = {
-  all_root_id: { // ?default_root_id=xxx ?default_root_title=xxx
-    "": {
-      title: '', // 显示的网站名称
+  all_root_id: { // ?default_root_id=root ?default_root_title=xxx
+    'root': {
+      "title": "", // 显示的网站名称
       auth: false, //  默认关闭验证，改成`true`用户名和密码才会生效
       upload: true, // 默认已开启上传功能，取消上传功能请改成`false`
       del_file: true, // 默认已开启删除文件功能，取消删除文件功能请改成`false`
       del_file_forever: false, // 默认已禁用彻底删除功能，开启彻底删除功能请改成`true`
-      user: "",
-      'pass': '',
+      "user": "",
+      "pass": "",
       not_allowed_upload: 'txt;odt;doc;docx;rtf;xlsx;xlsm;xlsb;xls;lnk;png;wps;',
     }, // txt;odt;doc;docx;
   },
-  "client_id": '',
-  'client_secret': "",
+  "client_id": "",
+  "client_secret": "",
   "refresh_token": "",
   service_account: false,
   service_account_json: {},
