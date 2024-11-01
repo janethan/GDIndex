@@ -12,7 +12,7 @@ const jsURL = 'https://github.com/janethan/GDIndex/raw/main/worker2.js';
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Drive Index';
     let auth_code = getParameterByName(request.url, 'auth_code');
-    let all_root_id = getParameterByName(request.url, 'root') || 'root';
+    let root_id = getParameterByName(request.url, 'all_root_id') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
     let password = getParameterByName(request.url, 'pass') || '';
     let codeJS = '';
@@ -29,7 +29,7 @@ async function handleRequest(request) {
                 .replaceKV('client_secret', client_secret)
                 .replaceKV('refresh_token', tokenResp.refresh_token)
                 //.replaceKV('default_root_id', root);
-                .replaceKV('default_root_id', all_root_id);
+                .replaceKV('default_root_id', root_id);
             codeJS = escapeHtml(code)
         }
     }
@@ -315,8 +315,8 @@ async function handleRequest(request) {
 
 <!--   此段代码已注释
 <div class="mb-3">
-  <label for="driveId" class="form-label">文件夹ID 或 网盘根目录root</label>
-  <input type="text" class="form-control" value="root" name="root" id="driveId" required>
+  <label for="rootId" class="form-label">文件夹ID 或 网盘根目录root</label>
+  <input type="text" class="form-control" value="root" name="root" id="rootId" required>
 </div>
 -->
 
