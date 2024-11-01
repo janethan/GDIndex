@@ -1,5 +1,5 @@
 self.props = {
-  all_root_id: { // ?default_root_id=xxx ?default_root_title=xxx
+  all_root_id: { // ?default_root_id=root ?default_root_title=xxx
     "": {
       title: "", // 显示的网站名称
       upload: true, // 默认已开启上传功能，取消上传功能请改成`false`
