@@ -14,7 +14,7 @@ self.props = {
 };
 (function () {
 'use strict';
-
+}
 /**
  * @param typeMap [Object] Map of MIME type -> Array[extensions]
  * @param ...
