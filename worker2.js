@@ -5,7 +5,7 @@ self.props = {
       upload: true, // 默认已开启上传功能，取消上传功能请改成`false`
       del_file: true, // 默认已开启删除文件功能，取消删除文件功能请改成`false`
       del_file_forever: false, // 默认已禁用彻底删除功能，开启彻底删除功能请改成`true`
-      auth: false, //  默认关闭验证，改成`true`，下面的用户名和密码才会生效
+      auth: false, //  默认关闭验证；改成`true`，下面的用户名和密码才会生效
       "user": "", // 用户名
       "pass": "", // 密码
       not_allowed_upload: 'txt;odt;doc;docx;rtf;xlsx;xlsm;xlsb;xls;lnk;png;wps;',
