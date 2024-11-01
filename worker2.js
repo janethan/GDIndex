@@ -1,6 +1,6 @@
 self.props = {
   all_root_id: { // ?default_root_id=xxx ?default_root_title=xxx
-    'root': {
+    "": {
       'title': "", // 显示的网站名称
       auth: false, //  默认关闭验证，改成`true`用户名和密码才会生效
       upload: true, // 默认已开启上传功能，取消上传功能请改成`false`
