@@ -6,7 +6,7 @@ const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
 const client_id = '换成自己的客户端Id';
 const client_secret = '换成自己的客户端密钥';
 const grantType = 'authorization_code';
-const redirectURI = 'https://换成自己（在谷歌API里通过认证）的域名或搭建的workers域名';
+const redirectURI = 'https://换成自己的域名或搭建的workers域名（在谷歌API生成凭据里添加）';
 const jsURL = 'https://github.com/janethan/GDIndex/raw/main/worker2.js';
 // handleRequest 函数：
 async function handleRequest(request) {
