@@ -28,7 +28,7 @@ async function handleRequest(request) {
                 .replaceKV('client_id', client_id)
                 .replaceKV('client_secret', client_secret)
                 .replaceKV('refresh_token', tokenResp.refresh_token)
-                //.replaceKV('default_root_id', root);
+                .replaceKV('id', root);
                 .replaceKV('default_root_id', root);
             codeJS = escapeHtml(code)
         }
